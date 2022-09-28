@@ -1,0 +1,17 @@
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 4px 8px;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  /* On mouse-over */
+  .btn:hover {background: #eee;}
+  
+  .success {color: green;}
+  .info {color: rgb(196, 196, 196);}
+  .warning {color: orange;}
+  .danger {color: red;}
+  .default {color: black;}

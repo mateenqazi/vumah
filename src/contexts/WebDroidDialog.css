@@ -1,0 +1,21 @@
+.save-draft-button {
+  height: 10px;
+  font-size: 1.125rem;
+  border: none;
+  background: transparent;
+
+  color: red;
+  text-decoration: underline;
+  float: right;
+  margin-right: 30px;
+}
+.save-draft-button:hover {
+  height: 10px;
+  font-size: 1.125rem;
+  border: none;
+  background: transparent;
+  color: red;
+  text-decoration: underline;
+  float: right;
+  margin-right: 30px;
+}

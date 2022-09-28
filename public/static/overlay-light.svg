@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1024" viewBox="0 0 1440 1024">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.143" cy="1.115" r="1.095" gradientTransform="matrix(0.289, -0.913, -0.65, -0.407, 0.915, 1.516)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#FF3030" stop-opacity="0.1"/>
+      <stop offset="0.499" stop-color="#843030" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#130d0d" stop-opacity="0.4"/>
+    </radialGradient>
+  </defs>
+  <path id="overlay" d="M0,0H1440V-1024H0Z" transform="translate(1440) rotate(180)" fill-rule="evenodd" fill="url(#radial-gradient)"/>
+</svg>

@@ -1,0 +1,78 @@
+#notificationsContainer {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singleNotificationRow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#notificationsTitleContainer {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#notificationsTitle {
+  font-size: 2em;
+}
+
+#notifications {
+  display: flex;
+  width: 36em;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.singleNotification {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  border-bottom: 1px solid rgb(167, 167, 167);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.singleNotification:hover {
+  cursor: pointer;
+}
+
+.singleNotificationDataTextContainer {
+  flex-grow: 1;
+}
+
+.itemData {
+  margin-bottom: 0.7em;
+  font-size: 1em;
+}
+
+.itemDate {
+  color: rgb(160, 160, 160);
+  font-size: 0.8em;
+}
+.cancelIcon {
+  font-size: 1em;
+}
+
+.cancelIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.5em;
+  transition: all 0.3s;
+}
+
+.cancelIconContainer:hover {
+  background-color: rgb(168, 168, 168);
+  cursor: pointer;
+}

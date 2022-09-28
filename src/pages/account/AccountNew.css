@@ -1,0 +1,662 @@
+#mainPage {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+#accountNewContainer {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  line-height: 1.1;
+  position: relative;
+}
+
+#greetingsContainer {
+  width: 40%;
+  margin-bottom: 3em;
+}
+
+#hello {
+  font-size: 4em;
+  color: rgb(246, 120, 16);
+}
+
+#title {
+  font-size: 2.5em;
+}
+
+#message {
+  color: #7c7c7c;
+  margin-top: 1em;
+}
+#leftSideBar {
+  width: 35%;
+}
+
+.leftSideBarContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 5px;
+}
+
+#infoRight {
+  margin-left: 2em;
+  width: 65%;
+}
+
+#completionPercentageIcon {
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#percentageCompletion {
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#percentageText {
+  font-size: 2em;
+  font-weight: 500;
+  color: #f67810;
+}
+
+#underPercentageText {
+  text-align: center;
+  font-size: 0.7em;
+  color: #7c7c7c;
+}
+
+#leftSideBarRows {
+  margin-top: 5vh;
+  width: 90%;
+}
+
+.iconRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.iconRow > div:nth-child(2):hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.numberedIconCompleted {
+  background-color: #f67810;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileImageIcon{
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+}
+
+.react-time-picker__wrapper{
+  border-radius: 10px ;
+}
+
+.dflex {
+  display: flex;
+  justify-content: space-between;
+}
+.dflex-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.cimage{
+  border-radius: 50%;
+}
+
+.rmargin {
+  margin-right: 25px;
+  font-weight: 600;
+}
+
+.empty-vehicle-text{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  color:#7c7c7c
+}
+.numberedIconActive {
+  border: 2px solid #f67810;
+  background-color: black;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numberedIconInactive {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+}
+
+.numberedIconCompleted > .iconText {
+  color: white;
+}
+
+.numberedIconActive > .iconText {
+  color: white;
+}
+
+.numberedIconInactive > .iconText {
+  color: black;
+}
+
+
+.exclamation{
+  height: 14px;
+}
+
+.numberedIconTextContainerCompleted {
+  display: flex;
+  align-items: center;
+  height: 4em;
+  width: 80%;
+  border: 2px solid #f67810;
+  margin-left: 0.8em;
+  border-radius: 5px;
+}
+
+.numberedIconTextContainerActive {
+  display: flex;
+  align-items: center;
+  height: 4em;
+  width: 80%;
+  background-color: #f67810;
+  margin-left: 0.8em;
+  border-radius: 5px;
+}
+
+.numberedIconTextContainerInactive {
+  display: flex;
+  align-items: center;
+  height: 4em;
+  width: 80%;
+  margin-left: 0.8em;
+  border-radius: 5px;
+}
+
+.icon {
+  font-size: 2em;
+  margin-left: 1em;
+  margin-right: 0.2em;
+}
+
+.numberedIconTextContainerActive > p {
+  color: white;
+}
+
+.numberedIconTextContainerInactive > p {
+  color: black;
+}
+
+#infoRightContainer {
+  width: 100%;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.rightSideInfoRow {
+  margin-top: 1.5em;
+}
+
+.roundImageContainer {
+  position: relative;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+}
+
+.profileImageRounded {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  background-position: center;
+  border: 2px solid #f67810;
+  position: relative;
+}
+
+.squareImageContainer {
+  position: relative;
+  width: 8em;
+  height: 8em;
+  border-radius: 3px;
+}
+
+.profileImageSquare {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 8em;
+  height: 8em;
+  border-radius: 3px;
+  background-size: 100% 100%;
+  background-position: center;
+  border: 2px solid #f67810;
+  position: relative;
+}
+
+.editIcon {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 0px;
+  right: 0.5em;
+  background-color: #fff;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.editIcon:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
+.editIcon > p {
+  color: black;
+}
+
+.removeImageIcon {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  bottom: 0px;
+  right: 0.5em;
+  background-color: white;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.removeImageIcon:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
+.imageUploader {
+  display: none;
+}
+
+input[type='file'] {
+  display: none;
+}
+.inputContainer {
+  display: flex;
+  margin-top: 0.8em;
+}
+
+.input {
+  flex-grow: 1;
+  background-color: #f3f3f3;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  border-radius: 3px;
+  border: transparent;
+}
+.text-area-input {
+  flex-grow: 1;
+  background-color: #f3f3f3;
+  height: 6em;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  padding-top: 1em;
+  border-radius: 3px;
+  border: transparent;
+}
+
+.placeholderText {
+  color: #7c7c7c;
+}
+
+.input:focus {
+  border: 1px solid #f67810;
+}
+
+.inputButtonOnRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6em;
+  height: 3em;
+  border-radius: 30px;
+  background-color: #f67810;
+  margin-left: 1em;
+  border: 1px solid #f67810;
+  transition: all 0.4s;
+}
+
+.inputButtonOnRight > p {
+  color: white;
+}
+
+.inputButtonOnRight:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.inputButtonOnRight:hover > p {
+  color: #f67810;
+}
+
+.addressContainer {
+  margin-top: 3.5em;
+  margin-bottom: 3.5em;
+}
+
+#addressTitle {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.addressPortionContainer {
+  margin-top: 2em;
+}
+
+p.inputLabel {
+  font-weight: 500;
+}
+
+.addressPortionRow {
+  margin-top: 2em;
+}
+
+#subscriptionsButtonsContainer {
+  display: flex;
+  margin-top: 3em;
+}
+
+.ballContainerInactive {
+  display: flex;
+  width: 4em;
+  height: 2.3em;
+  border-radius: 50px;
+  background-color: #dadada;
+  align-items: center;
+  margin-left: 1em;
+  transition: all 0.3s;
+}
+
+.ballContainerActive {
+  display: flex;
+  width: 4em;
+  height: 2.3em;
+  border-radius: 50px;
+  background-color: #eeeeee;
+  align-items: center;
+  margin-left: 1em;
+  transition: all 0.3s;
+}
+
+.ballInactive {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  background-color: grey;
+  border-radius: 50%;
+  transition: all 0.3s;
+  transform: translateX(0%);
+}
+
+.ballActive {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  background-color: #f67810;
+  border-radius: 50%;
+  transition: all 0.3s;
+  transform: translateX(100%);
+}
+
+.subscribeButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.subscribeButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#deactivationButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 15em;
+  height: 3em;
+  border: 2px solid #f67810;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  transition: all 0.4s;
+}
+
+#deactivationButton > p {
+  color: #f67810;
+}
+
+#deactivationButton:hover {
+  background-color: #f67810;
+  cursor: pointer;
+}
+
+#deactivationButton:hover > p {
+  color: #fff;
+}
+
+#submitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f67810;
+  height: 3em;
+  width: 15em;
+  border-radius: 50px;
+  border: 2px solid #f67810;
+  transition: all 0.4s;
+}
+
+.skipButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  width: 6em;
+  transition: all 0.2s;
+}
+
+.skipButton p {
+  transition: all 0.2s;
+}
+
+.skipButton:hover > p {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#submitButton > p {
+  color: #fff;
+}
+
+#submitButton:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#submitButton:hover > p {
+  color: #f67810;
+}
+
+.uploadSection {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.uploadSection p {
+  font-weight: 600;
+}
+
+.infoIcon {
+  margin-left: 1em;
+}
+
+#driversLicenseFileUploadsContainer {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  justify-content: space-between;
+}
+
+#passportFileUploadsContainer {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+}
+
+#OR {
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+
+.des {
+  margin-top: 0.5em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.titleContainer > p {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.addNewCardButtonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 1em;
+}
+
+.addNewCardButton {
+  width: 10em;
+  height: 3em;
+  border-radius: 50px;
+  border: 2px solid #f67810;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+}
+
+.addNewCardButton > p {
+  color: #f67810;
+}
+
+.addNewCardButton:hover {
+  background-color: #f67810;
+  cursor: pointer;
+}
+
+.addNewCardButton:hover > P {
+  color: #fff;
+}
+
+.bankImage {
+  width: auto;
+  height: 4em;
+  object-fit: contain;
+}
+
+#gridView {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: grid;
+  row-gap: 1em;
+}
+#gridView p {
+  color: #7c7c7c;
+}
+
+.gridRowTemplate {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr 0.2fr;
+  gap: 1em;
+  background-color: #e7e7e7;
+}
+
+.gridRowTemplate:nth-child(1) {
+  background-color: transparent;
+}
+
+.gridRowTemplate:nth-child(1) p {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.gridRowTemplate > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
